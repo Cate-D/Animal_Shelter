@@ -38,9 +38,19 @@ h2 {
   width: 300px;
 } 
 
+<<<<<<< HEAD
 @media all and (max-width 500px) {
+=======
+@media screen and (max-width: 500px) {
+>>>>>>> master
   body {
   background-color: white;
   color: black;
+  }
+}
+
+@media all and (max-height: 500px) {
+  h2 {
+    color: blueviolet;
   }
 }
