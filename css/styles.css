@@ -7,9 +7,9 @@ body {
   background-color: black;
   color: orange;
   text-align: center;
-  width: 300;
-  
+  float: left;
 }
+
 
 h1 {
   font-weight: 100;
@@ -22,4 +22,16 @@ h2 {
 
 .column {
   float: left;
+  width: 300px; 
+  padding: 0px 10px 0px 10px;
+  background-color: darkgray;
+  margin: 5px 5px 5px 5px;
+}
+
+.column p {
+  color: aliceblue;
+}
+
+.column img {
+  width: 300px;
 }
